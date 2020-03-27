@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"ISI",
+		"   "
+	],
+	
+	"key":
+	{
+		"I": { "tag": "forge:ingots/hallowed" },
+		"S": { "item": "minecraft:obsidian" }
+	},
+	
+	"result": { "item": "examplemod:hallowed_melee_helmet" }
+}

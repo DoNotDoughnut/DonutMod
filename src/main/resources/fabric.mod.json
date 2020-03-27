@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "donutmod1",
+  "version": "1+build.1",
+
+  "name": "Donut's Test Mod",
+  "description": "Top Text\nBottom text",
+  "authors": ["DoNotDoughnut"],
+  
+  "contact": {
+    "homepage": "https://rhysholloway.net/",
+    "sources": "https://github.com/DoNotDoughnut/donutmod1"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/donutmod1/textures/item/hallowed_chestplate.png",
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [ "net.rhysholloway.donutmod1.DonutMod" ],
+    "client": [ "net.rhysholloway.donutmod1.DonutMod" ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x",
+    "libgui": ">=1.8.0-1.15.2"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

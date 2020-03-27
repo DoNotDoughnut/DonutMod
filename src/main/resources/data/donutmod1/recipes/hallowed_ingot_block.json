@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": { "tag": "forge:ingots/hallowed" }
+	},
+	
+	"result": { "item": "examplemod:hallowed_ingot_block" }
+}

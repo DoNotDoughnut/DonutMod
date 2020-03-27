@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"IS ",
+		" S "
+	],
+	
+	"key":
+	{
+		"I": { "tag": "forge:ingots/hallowed" },
+		"S": { "item": "minecraft:iron_ingot" }
+	},
+	
+	"result": { "item": "examplemod:hallowed_multitool_pickaxe_axe" }
+}

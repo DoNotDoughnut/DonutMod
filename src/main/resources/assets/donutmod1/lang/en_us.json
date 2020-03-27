@@ -1,0 +1,35 @@
+{
+	"block.donutmod1.hallowed_ingot_block": "\u00A7dHallowed Bar Stack",
+	"block.donutmod1.mythril_anvil": "\u00A76Mythril Anvil (WIP)",
+
+	"item.donutmod1.hallowed_ingot": "\u00A7cHallowed Bar",
+	
+	"item.donutmod1.hallowed_sword": "\u00A7dExcalibur",
+	"item.donutmod1.hallowed_multitool_pickaxe_axe": "\u00A7cPickaxe Axe",
+	"item.donutmod1.hallowed_bow": "\u00A7dHallowed Repeater",
+	
+	
+	"item.donutmod1.hallowed_ranged_helmet": "\u00A7dHallowed Headgear",
+	"item.donutmod1.hallowed_melee_helmet": "\u00A7dHallowed Mask",
+	"item.donutmod1.hallowed_magic_helmet": "\u00A7dHallowed Helmet",
+	
+	"item.donutmod1.hallowed_chestplate": "\u00A7dHallowed Plate Mail",
+	"item.donutmod1.hallowed_leggings": "\u00A7dHallowed Leggings",
+	"item.donutmod1.hallowed_boots": "\u00A7dHallowed Boots",
+	
+	
+	"item.donutmod1.accessory_aglet": "Aglet",
+	"item.donutmod1.accessory_shiny_red_balloon": "\u00A79Shiny Red Balloon",
+	"item.donutmod1.accessory_obsidian_skull": "\u00A7aObsidian Skull",
+	
+	
+	"itemGroup.donutmod1.general": "DonutMod1",
+	"itemGroup.donutmod1.tools": "DonutMod1 Tools",
+	"itemGroup.donutmod1.weapons": "DonutMod1 Weapons",
+	"itemGroup.donutmod1.armor": "DonutMod1 Armor",
+	"itemGroup.donutmod1.accessories": "DonutMod1 Accessories",
+	
+	"gui.donutmod1.mythril_anvil.label": "Mythril Anvil",
+	
+	"curios.identifier.accessory": "Accessory Slot"
+}
