@@ -1,4 +1,4 @@
-package net.rhysholloway.donutmod1.lib;
+package net.rhysholloway.donutmod1.util;
 
 import net.minecraft.item.ArmorMaterial;
 

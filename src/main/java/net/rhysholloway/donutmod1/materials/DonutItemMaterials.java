@@ -52,7 +52,6 @@ public enum DonutItemMaterials implements ToolMaterial {
 		return this.harvestLevel;
 	}
 
-	@Override
 	public float getMiningSpeed() {
 		return this.efficiency;
 	}
@@ -60,6 +59,10 @@ public enum DonutItemMaterials implements ToolMaterial {
 	@Override
 	public Ingredient getRepairIngredient() {
 		return Ingredient.ofItems(this.repairMaterial);
+	}
+
+	public float getMiningSpeedMultiplier() {
+		return getMiningSpeed();
 	}
 	
 }

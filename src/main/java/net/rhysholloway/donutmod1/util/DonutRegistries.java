@@ -1,16 +1,25 @@
-package net.rhysholloway.donutmod1.lib;
+package net.rhysholloway.donutmod1.util;
 
 import static net.rhysholloway.donutmod1.DonutMod.modId;
 
+import dev.emi.trinkets.api.ITrinket;
+import dev.emi.trinkets.api.SlotGroups;
+import dev.emi.trinkets.api.Slots;
 import net.minecraft.block.Block;
+import net.minecraft.block.DispenserBlock;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
 
 public class DonutRegistries {
 
@@ -94,6 +103,26 @@ public class DonutRegistries {
 		}
 		
 	}
+
+	public static class ACCESSORY extends ITEM implements DonutRegistry, ITrinket {
+
+		public ACCESSORY(Settings settings, String name) {
+			super(settings.maxCount(1), "accessory_"+name);
+			DispenserBlock.registerBehavior(this, TRINKET_DISPENSER_BEHAVIOR);
+		}
+
+		@Override
+		public boolean canWearInSlot(String group, String slot) {
+			return group.equals(SlotGroups.OFFHAND) && slot.equals(Slots.CHARM);
+		}
+		
+		@Override
+		public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
+			return ITrinket.equipTrinket(player, hand);
+		}
+		
+	}
+	
 }
 
 interface DonutRegistry {
