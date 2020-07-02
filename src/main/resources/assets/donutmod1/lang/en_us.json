@@ -29,7 +29,7 @@
 	"itemGroup.donutmod1.armor": "DonutMod1 Armor",
 	"itemGroup.donutmod1.accessories": "DonutMod1 Accessories",
 	
-	"gui.donutmod1.mythril_anvil.label": "Mythril Anvil",
+	"container.donutmod1.mythril_anvil": "Mythril Anvil",
 	
 	"curios.identifier.accessory": "Accessory Slot"
 }

@@ -1,6 +1,7 @@
 plugins {
-	id 'fabric-loom' version '0.2.6-SNAPSHOT'
+	id 'fabric-loom' version '0.4-SNAPSHOT'
 	id 'maven-publish'
+	//id "com.github.spotbugs" version "4.4.3"
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -11,39 +12,53 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-    maven {
+    maven { // Cloth config, libGui
         name = "CottonMC"
-        url = "http://server.bbkr.space:8081/artifactory/libs-release"
+        url = "https://server.bbkr.space/artifactory/libs-release"
     }
-    maven {
+    maven { // Trinkets
 		url = "https://jitpack.io"
 	}
 	maven {
-		name = "NerdHubMC"
-		url = "https://maven.abusedmaster.xyz/"
+		url = "https://dl.bintray.com/earthcomputer/mods"
 	}
 }
 
-minecraft {
-}
-
 dependencies {
-	//to change the versions see the gradle.properties file
+
+	// implementation "com.google.guava:guava:29.0-jre"
+
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.minecraft_version}+build.${project.yarn_mappings_build}:v2"
-	modCompile "net.fabricmc:fabric-loader:${project.loader_version}"
+	mappings "net.fabricmc:yarn:${project.minecraft_version}+build.${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
-	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	// Cloth config v2
+
+	modApi "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
+	include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
 	
-	// Mod compatibility
+	// Auto config
 	
-	modCompile "io.github.prospector:modmenu:${project.modmenu_version}"
+	modApi "me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}"
+	include "me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}"
 	
-	// Mod dependencies
+	// LibGUI
+	
+	// modImplementation "io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}"
+	// include "io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}"
+	
+	// ModMenu
+	
+	modImplementation "io.github.prospector:modmenu:${project.modmenu_version}"
+	
+	// Trinkets
+	
 	modImplementation "com.github.emilyploszaj:trinkets:v${project.trinkets_version}"
-	modImplementation "io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}"
-
+	
+	// LibStructure
+	
+	modImplementation "net.earthcomputer:libstructure:${project.libstructure_version}"
 
 }
 

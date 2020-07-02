@@ -10,9 +10,9 @@
 	
 	"key":
 	{
-		"I": { "tag": "forge:ingots/hallowed" },
+		"I": { "item": "donutmod1:hallowed_ingot" },
 		"S": { "item": "minecraft:iron_ingot" }
 	},
 	
-	"result": { "item": "examplemod:hallowed_sword" }
+	"result": { "item": "donutmod1:hallowed_sword" }
 }

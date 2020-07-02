@@ -2,11 +2,11 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
 		{
-			"item": "examplemod:hallowed_ingot_block"
+			"item": "donutmod1:hallowed_ingot_block"
 		}
 	],
 	"result": {
-		"item": "examplemod:hallowed_ingot",
+		"item": "donutmod1:hallowed_ingot",
 		"count": 9
 	}
 }

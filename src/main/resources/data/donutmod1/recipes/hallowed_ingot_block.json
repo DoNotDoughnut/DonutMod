@@ -10,8 +10,8 @@
 	
 	"key":
 	{
-		"I": { "tag": "forge:ingots/hallowed" }
+		"I": { "item": "donutmod1:hallowed_ingot" }
 	},
 	
-	"result": { "item": "examplemod:hallowed_ingot_block" }
+	"result": { "item": "donutmod1:hallowed_ingot_block" }
 }

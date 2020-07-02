@@ -1,31 +1,42 @@
 {
   "schemaVersion": 1,
-  "id": "donutmod1",
-  "version": "1+build.1",
+  "id": "donutmod2",
+  "version": "RC1",
 
-  "name": "Donut's Test Mod",
+  "name": "DonutMod 2",
   "description": "Top Text\nBottom text",
-  "authors": ["DoNotDoughnut"],
-  
+  "authors": [
+    "DoNotDoughnut"
+  ],
   "contact": {
-    "homepage": "https://rhysholloway.net/",
-    "sources": "https://github.com/DoNotDoughnut/donutmod1"
+    "homepage": "https://rhysholloway.net",
+    "sources": "https://github.com/DoNotDoughnut"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/donutmod1/textures/item/hallowed_chestplate.png",
+  "icon": "assets/donutmod2/icon.png",
+
   "environment": "*",
-  
   "entrypoints": {
-    "main": [ "net.rhysholloway.donutmod1.DonutMod" ],
-    "client": [ "net.rhysholloway.donutmod1.DonutMod" ]
+    "main": [
+      "net.rhysholloway.donutmod2.DonutMod"
+    ],
+    "client": [
+      "net.rhysholloway.donutmod2.DonutMod"
+    ],
+    "modmenu": [
+      "net.rhysholloway.donutmod2.compat.ModMenuIntegration"
+    ]
   },
-  "mixins": [],
+  "mixins": [
+  	"donutmod2.mixins.json"
+  ],
+
   "depends": {
-    "fabricloader": ">=0.7.2",
+    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": ">=1.15",
-    "libgui": ">=1.8.0-1.15.2"
+    "minecraft": "1.16.x",
+	"trinkets": ">=2.5.0"
   },
   "suggests": {
     "modmenu": "*"

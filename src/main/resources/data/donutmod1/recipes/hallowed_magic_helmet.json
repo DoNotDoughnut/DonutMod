@@ -10,9 +10,9 @@
 	
 	"key":
 	{
-		"I": { "tag": "forge:ingots/hallowed" },
+		"I": { "item": "donutmod1:hallowed_ingot" },
 		"S": { "item": "minecraft:blaze_rod" }
 	},
 	
-	"result": { "item": "examplemod:hallowed_magic_helmet" }
+	"result": { "item": "donutmod1:hallowed_magic_helmet" }
 }
