@@ -1,0 +1,9 @@
+{
+  "type": "donutmod2:nether_smelting",
+  "ingredient": {
+    "item": "donutmod2:mythril_chunk"
+  },
+  "result": "donutmod2:mythril_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

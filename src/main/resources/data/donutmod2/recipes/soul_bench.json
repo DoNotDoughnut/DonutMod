@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" D ",
+		"MCM",
+		"MMM"
+	],
+	
+	"key":
+	{
+		"D": { "item": "minecraft:diamond" },
+		"C": { "item": "minecraft:crafting_table" },
+		"M": { "item": "donutmod2:mythril_ingot" }
+	},
+	
+	"result": { "item": "donutmod2:soul_bench" }
+}

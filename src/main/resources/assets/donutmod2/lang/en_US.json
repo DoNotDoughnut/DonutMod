@@ -1,0 +1,61 @@
+{
+	
+	"itemGroup.donutmod2.general": "DonutMod2",
+	
+	"block.donutmod2.dart_trap": "Dart Trap",
+	"block.donutmod2.nether_furnace": "Nether Furnace",
+	"block.donutmod2.soul_bench": "\u00A76Soul Bench",
+
+	"item.donutmod2.soul_flight": "Soul of Flight",
+	"item.donutmod2.soul_might": "Soul of Might",
+	"item.donutmod2.soul_fright": "Soul of Fright",
+	"item.donutmod2.soul_sight": "Soul of Sight",
+
+	"item.donutmod2.hallowed_ingot": "\u00A7cHallowed Bar",
+	"block.donutmod2.hallowed_ingot_block": "\u00A7dHallowed Bar Stack",
+	
+	"block.donutmod2.mythril_ore": "Mythril Ore",
+	"item.donutmod2.mythril_chunk": "Mythril Chunk",
+	"item.donutmod2.mythril_ingot": "Mythril Ingot",
+	"block.donutmod2.mythril_ingot_block": "Mythril Block",
+	
+	"item.donutmod2.hallowed_multitool_pickaxe_axe": "\u00A7cPickaxe Axe",
+	
+	"item.donutmod2.hallowed_sword": "\u00A7dExcalibur",
+	"item.donutmod2.light_disc": "Light Disc",
+	
+	"item.donutmod2.accessory_angel_ring": "Angel Ring",
+	"item.donutmod2.accessory_obsidian_skull": "\u00A7aObsidian Skull",
+		
+	"item.donutmod2.hallowed_ranged_helmet": "\u00A7dHallowed Headgear",
+	"item.donutmod2.hallowed_melee_helmet": "\u00A7dHallowed Mask",
+	"item.donutmod2.hallowed_magic_helmet": "\u00A7dHallowed Helmet",
+	
+	"item.donutmod2.hallowed_chestplate": "\u00A7dHallowed Plate Mail",
+	"item.donutmod2.hallowed_leggings": "\u00A7dHallowed Leggings",
+	"item.donutmod2.hallowed_boots": "\u00A7dHallowed Boots",
+	
+	"item.donutmod2.wyvern_spawn_egg": "Wyvern Spawn Egg",
+	
+	"entity.donutmod2.wyvern": "Wyvern",
+	"entity.donutmod2.redstone_cube": "Redstone Cube",
+	"entity.donutmod2.light_disc": "Light Disc",
+	
+	"effect.donutmod2.fly": "Avian Grace",
+	
+	"container.donutmod2.nether_furnace": "Nether Furnace",
+	"container.donutmod2.soul_bench": "Soul Bench",
+	
+	"text.autoconfig.donutmod2.option.underground_cabin": "Underground Cabin Settings",
+	"text.autoconfig.donutmod2.option.underground_cabin.enabled": "Enable Underground Cabins",
+	"text.autoconfig.donutmod2.option.underground_cabin.chance": "Underground Cabin Spawn Chance",
+	
+	"text.autoconfig.donutmod2.option.mythril_ore": "Mythril Ore Settings",
+	
+	"text.autoconfig.donutmod2.option.mythril_ore.veinSize": "Vein Size",
+	"text.autoconfig.donutmod2.option.mythril_ore.veinsPerChunk": "Veins Per Chunk",
+	"text.autoconfig.donutmod2.option.mythril_ore.bottomOffset": "Bottom Offset",
+	"text.autoconfig.donutmod2.option.mythril_ore.minHeight": "Minimum Spawning Height",
+	"text.autoconfig.donutmod2.option.mythril_ore.maxHeight": "Maximum Spawning Height"
+	
+}

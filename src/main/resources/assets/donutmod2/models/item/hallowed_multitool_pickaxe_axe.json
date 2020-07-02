@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "donutmod2:item/hallowed_multitool_pickaxe_axe"
+   }
+} 

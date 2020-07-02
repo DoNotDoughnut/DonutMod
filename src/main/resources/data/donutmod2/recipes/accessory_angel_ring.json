@@ -1,0 +1,22 @@
+{
+	"type": "donutmod2:soul_crafting",
+	
+	"souls": {
+		"flight": 20
+	},
+	
+	"pattern":
+	[
+		" G ",
+		"GFG",
+		" G "
+	],
+	
+	"key":
+	{
+		"G": { "item": "minecraft:gold_ingot" },
+		"F": { "item": "minecraft:feather" }
+	},
+	
+	"result": { "item": "donutmod2:accessory_angel_ring" }
+}

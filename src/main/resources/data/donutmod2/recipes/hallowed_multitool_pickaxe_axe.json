@@ -1,0 +1,26 @@
+{
+	"type": "donutmod2:soul_crafting",
+	
+	"souls": {
+	
+		"might": 1,
+		"fright": 1,
+		"sight": 1
+	
+	},
+	
+	"pattern":
+	[
+		"III",
+		" S ",
+		" S "
+	],
+	
+	"key":
+	{
+		"I": { "item": "donutmod2:hallowed_ingot" },
+		"S": { "item": "minecraft:stick" }
+	},
+	
+	"result": { "item": "donutmod2:hallowed_multitool_pickaxe_axe" }
+}

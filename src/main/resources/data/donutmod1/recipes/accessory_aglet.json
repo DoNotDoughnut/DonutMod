@@ -1,0 +1,13 @@
+{
+
+	"type": "donutmod1:mythril_anvil",
+	
+	"ingredient": { "item": "donutmod1:hallowed_ingot" },
+	
+	"requires": 12,
+	
+	"result": {
+		"item": "donutmod1:hallowed_multitool_pickaxe_axe"
+	}
+
+}
