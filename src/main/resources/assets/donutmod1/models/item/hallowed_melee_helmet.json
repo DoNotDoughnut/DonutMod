@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "donutmod1:item/hallowed_melee_helmet"
-    }
-}
