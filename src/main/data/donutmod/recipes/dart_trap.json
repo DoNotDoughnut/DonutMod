@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:dispenser"
+		},
+		{
+			"item": "minecraft:redstone"
+		},
+		{
+			"tag": "minecraft:arrows"
+		}
+	],
+	"result": {
+		"item": "donutmod:hallowed_ingot",
+		"count": 9
+	}
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/orientable_vertical",
-  "textures": {
-    "front": "donutmod2:block/dart_trap_front_vertical",
-    "side": "donutmod2:block/dart_trap_side"
-  }
-}

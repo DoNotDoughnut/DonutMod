@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "front": "donutmod:block/temple_spike_trap_front_vertical",
+    "side": "donutmod:block/temple_spike_trap_side"
+  }
+}

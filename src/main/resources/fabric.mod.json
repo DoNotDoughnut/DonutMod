@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "donutmod2",
+  "id": "donutmod",
   "version": "RC1",
 
   "name": "DonutMod 2",
@@ -14,22 +14,22 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/donutmod2/icon.png",
+  "icon": "assets/donutmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.rhysholloway.donutmod2.DonutMod"
+      "net.rhysholloway.donutmod.DonutMod"
     ],
     "client": [
-      "net.rhysholloway.donutmod2.DonutMod"
+      "net.rhysholloway.donutmod.DonutMod"
     ],
     "modmenu": [
-      "net.rhysholloway.donutmod2.compat.ModMenuIntegration"
+      "net.rhysholloway.donutmod.util.compat.ModMenuIntegration"
     ]
   },
   "mixins": [
-  	"donutmod2.mixins.json"
+  	"donutmod.mixins.json"
   ],
 
   "depends": {

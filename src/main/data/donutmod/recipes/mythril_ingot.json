@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "donutmod:mythril_ingot_block"
+		}
+	],
+	"result": {
+		"item": "donutmod:mythril_ingot",
+		"count": 9
+	}
+}

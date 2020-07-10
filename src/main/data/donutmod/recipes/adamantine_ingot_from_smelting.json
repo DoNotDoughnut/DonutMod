@@ -1,0 +1,9 @@
+{
+  "type": "donutmod:adamantite_smelting",
+  "ingredient": {
+    "item": "donutmod:adamantite_ore"
+  },
+  "result": "donutmod:adamantite_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

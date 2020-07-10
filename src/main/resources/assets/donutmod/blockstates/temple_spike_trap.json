@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "donutmod:block/temple_spike_trap_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "donutmod:block/temple_spike_trap",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "donutmod:block/temple_spike_trap"
+    },
+    "facing=south": {
+      "model": "donutmod:block/temple_spike_trap",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "donutmod:block/temple_spike_trap_vertical"
+    },
+    "facing=west": {
+      "model": "donutmod:block/temple_spike_trap",
+      "y": 270
+    }
+  }
+}

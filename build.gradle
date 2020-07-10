@@ -1,7 +1,6 @@
 plugins {
 	id 'fabric-loom' version '0.4-SNAPSHOT'
 	id 'maven-publish'
-	//id "com.github.spotbugs" version "4.4.3"
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -12,53 +11,70 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-    maven { // Cloth config, libGui
-        name = "CottonMC"
-        url = "https://server.bbkr.space/artifactory/libs-release"
-    }
-    maven { // Trinkets
-		url = "https://jitpack.io"
-	}
-	maven {
-		url = "https://dl.bintray.com/earthcomputer/mods"
-	}
+       	maven { // Cloth config, libGui
+        	name = "CottonMC"
+        	url = "https://server.bbkr.space/artifactory/libs-release"
+    	}
+    	maven { // Trinkets
+    		name = "Emily Ploszaj's Repo"
+			url = "https://jitpack.io"
+//			content {
+//				includeGroup("com.github.emilyposzaj")
+//			}
+		}
+		maven { //LibStructure
+			name = "EarthComputer's Repo"
+			url = "https://dl.bintray.com/earthcomputer/mods"
+		}
 }
 
 dependencies {
 
 	// implementation "com.google.guava:guava:29.0-jre"
 
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.minecraft_version}+build.${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	// Minecraft
+
+	minecraft("com.mojang:minecraft:${project.minecraft_version}")
+	
+	// Yarn Mappings
+	
+	mappings("net.fabricmc:yarn:${project.minecraft_version}+build.${project.yarn_mappings_build}:v2")// at "Fabric"
+	
+	// Fabric loader
+	
+	modImplementation("net.fabricmc:fabric-loader:${project.loader_version}")// at "Fabric"
+	
+	// Fabric API
+	
+	modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")// at "Fabric"
+	modImplementation("net.fabricmc.fabric-api:fabric-events-lifecycle-v0:${project.fabric_events_lifecycle_version}")
 
 	// Cloth config v2
 
-	modApi "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
-	include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
+	modApi("me.shedaniel.cloth:config-2:${project.cloth_config_version}")// at "CottonMC"
+	include("me.shedaniel.cloth:config-2:${project.cloth_config_version}")// at "CottonMC"
 	
 	// Auto config
 	
-	modApi "me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}"
-	include "me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}"
+	modApi("me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}")// at "CottonMC"
+	include("me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}")// at "CottonMC"
 	
 	// LibGUI
 	
-	// modImplementation "io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}"
-	// include "io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}"
+	// modImplementation("io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}") at "CottonMC"
+	// include("io.github.cottonmc:LibGui:${project.libgui_version}+${project.minecraft_version}") at "CottonMC"
 	
 	// ModMenu
 	
-	modImplementation "io.github.prospector:modmenu:${project.modmenu_version}"
+	modImplementation("io.github.prospector:modmenu:${project.modmenu_version}")// at "Fabric"
 	
 	// Trinkets
 	
-	modImplementation "com.github.emilyploszaj:trinkets:v${project.trinkets_version}"
+	modImplementation("com.github.emilyploszaj:trinkets:v${project.trinkets_version}")// at "Emily Ploszaj's Repo"
 	
 	// LibStructure
 	
-	modImplementation "net.earthcomputer:libstructure:${project.libstructure_version}"
+	modImplementation("net.earthcomputer:libstructure:${project.libstructure_version}")// at "EarthComputer's Repo"
 
 }
 
@@ -75,16 +91,10 @@ processResources {
 	}
 }
 
-// ensure that the encoding is set to UTF-8, no matter what the system default is
-// this fixes some edge cases with special characters not displaying correctly
-// see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
 tasks.withType(JavaCompile) {
 	options.encoding = "UTF-8"
 }
 
-// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-// if it is present.
-// If you remove this task, sources will not be generated.
 task sourcesJar(type: Jar, dependsOn: classes) {
 	classifier = "sources"
 	from sourceSets.main.allSource
@@ -94,11 +104,9 @@ jar {
 	from "LICENSE"
 }
 
-// configure the maven publication
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
-			// add all the jars that should be included when publishing to maven
 			artifact(remapJar) {
 				builtBy remapJar
 			}
@@ -108,9 +116,7 @@ publishing {
 		}
 	}
 
-	// select the repositories you want to publish to
 	repositories {
-		// uncomment to publish to the local maven
-		// mavenLocal()
+		mavenLocal()
 	}
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "donutmod:block/muddy_grass_top",
+    "bottom": "donutmod:block/mud_block",
+    "side": "donutmod:block/muddy_grass_snow",
+    "particle": "donutmod:block/mud_block"
+  }
+}

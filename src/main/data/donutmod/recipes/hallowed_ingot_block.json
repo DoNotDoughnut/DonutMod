@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"III",
+		"III"
+	],
+	
+	"key":
+	{
+		"I": { "item": "donutmod:hallowed_ingot" }
+	},
+	
+	"result": { "item": "donutmod:hallowed_ingot_block" }
+}

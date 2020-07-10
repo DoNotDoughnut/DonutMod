@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "donutmod:block/mud_block"
+    }
+  }
+}

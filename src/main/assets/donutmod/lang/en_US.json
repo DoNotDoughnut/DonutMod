@@ -1,0 +1,140 @@
+{
+	
+	"itemGroup.donutmod.general": "Donut Mod: General",
+	"itemGroup.donutmod.tools": "Donut Mod: Tools",
+	"itemGroup.donutmod.melee_weapons": "Donut Mod: Melee Weapons",
+	"itemGroup.donutmod.ranged_weapons": "Donut Mod: Ranged Weapons",
+	"itemGroup.donutmod.magic_weapons": "Donut Mod: Magic Weapons",
+	"itemGroup.donutmod.accessories": "Donut Mod: Accessories",
+	"itemGroup.donutmod.armor": "Donut Mod: Armor",
+	"itemGroup.donutmod.misc": "Donut Mod: Miscellaneous",
+	
+	"block.donutmod.air_light": "Air Light",
+	
+	"block.donutmod.muddy_grass": "Muddy Grass",
+	"block.donutmod.mud_block": "Mud",
+	"block.donutmod.temple_block": "Temple Block",
+	"block.donutmod.chiseled_temple_block": "Chiseled Temple Block",
+	"block.donutmod.temple_block_slab": "Temple Block Slab",
+	"block.donutmod.temple_block_stairs": "Temple Block Stairs",
+	"block.donutmod.cobalt_ore": "Cobalt Ore",
+	"block.donutmod.mythril_ore": "Mythril Ore",
+	"block.donutmod.adamantite_ore": "Adamantite Ore",
+	"block.donutmod.cobalt_ingot_block": "Cobalt Block",
+	"block.donutmod.mythril_ingot_block": "Mythril Block",
+	"block.donutmod.adamantite_ingot_block": "Adamantite Block",
+	"block.donutmod.hallowed_ingot_block": "\u00A7dHallowed Bar Stack",
+	"block.donutmod.nether_furnace": "Nether Furnace",
+	"block.donutmod.adamantite_furnace": "Adamantite Forge",
+	"block.donutmod.soul_bench": "\u00A76Soul Bench",
+	"block.donutmod.dart_trap": "Dart Trap",
+	"block.donutmod.temple_dart_trap": "Temple Dart Trap",
+	"block.donutmod.temple_spike_trap": "Temple Spike Trap",
+	
+	
+	
+	"item.donutmod.soul_flight": "Soul of Flight",
+	"item.donutmod.soul_might": "Soul of Might",
+	"item.donutmod.soul_fright": "Soul of Fright",
+	"item.donutmod.soul_sight": "Soul of Sight",
+	"item.donutmod.cobalt_ingot": "Cobalt Ingot",
+	"item.donutmod.mythril_ingot": "Mythril Ingot",
+	"item.donutmod.adamantite_ingot": "Adamantite Ingot",
+	"item.donutmod.hallowed_ingot": "\u00A7cHallowed Bar",
+	
+	"item.donutmod.cobalt_pickaxe": "Cobalt Pickaxe",
+	"item.donutmod.cobalt_shovel": "Cobalt Shovel",
+	"item.donutmod.cobalt_axe": "Cobalt Axe",
+	"item.donutmod.cobalt_hoe": "Cobalt Hoe",
+	"item.donutmod.mythril_pickaxe": "Mythril Pickaxe",
+	"item.donutmod.mythril_shovel": "Mythril Shovel",
+	"item.donutmod.mythril_axe": "Mythril Axe",
+	"item.donutmod.mythril_hoe": "Mythril Hoe",
+	"item.donutmod.adamantite_pickaxe": "Adamantite Pickaxe",
+	"item.donutmod.adamantite_shovel": "Adamantite Shovel",
+	"item.donutmod.adamantite_axe": "Adamantite Axe",
+	"item.donutmod.adamantite_hoe": "Adamantite Hoe",
+	"item.donutmod.pickaxe_axe": "\u00A7cPickaxe Axe",
+	"item.donutmod.hallowed_hoe": "\u00A7dHallowed Hoe",
+	"item.donutmod.temple_compass": "\u00A7dTemple Compass",
+	
+	"item.donutmod.cobalt_sword": "Cobalt Sword",
+	"item.donutmod.mythril_sword": "Mythril Sword",
+	"item.donutmod.adamantite_sword": "Adamantite Sword",
+	"item.donutmod.hallowed_sword": "\u00A7dExcalibur",
+	"item.donutmod.light_disc": "Light Disc",
+	
+	"item.donutmod.hallowed_repeater": "Hallowed Repeater",
+	
+	"item.donutmod.magic_placeholder": "Magic Item",
+	
+	"item.donutmod.accessory_angel_ring": "Angel Ring",
+	"item.donutmod.accessory_obsidian_skull": "\u00A7aObsidian Skull",
+		
+	"item.donutmod.cobalt_boots": "Cobalt Boots",
+	"item.donutmod.cobalt_leggings": "Cobalt Leggings",
+	"item.donutmod.cobalt_chestplate": "Cobalt Plate Mail",
+	
+	"item.donutmod.cobalt_melee_helmet": "Cobalt Mask",
+	"item.donutmod.cobalt_ranged_helmet": "Cobalt Headgear",
+	"item.donutmod.cobalt_magic_helmet": "Cobalt Helmet",	
+	
+	"item.donutmod.mythril_boots": "Mythril Boots",
+	"item.donutmod.mythril_leggings": "Mythril Leggings",
+	"item.donutmod.mythril_chestplate": "Mythril Plate Mail",
+	
+	"item.donutmod.mythril_melee_helmet": "Mythril Mask",
+	"item.donutmod.mythril_ranged_helmet": "Mythril Headgear",
+	"item.donutmod.mythril_magic_helmet": "Mythril Helmet",	
+	
+	"item.donutmod.adamantite_boots": "Adamantite Boots",
+	"item.donutmod.adamantite_leggings": "Adamantite Leggings",
+	"item.donutmod.adamantite_chestplate": "Adamantite Plate Mail",
+	
+	"item.donutmod.adamantite_melee_helmet": "Adamantite Mask",
+	"item.donutmod.adamantite_ranged_helmet": "Adamantite Headgear",
+	"item.donutmod.adamantite_magic_helmet": "Adamantite Helmet",	
+		
+	"item.donutmod.hallowed_boots": "\u00A7dHallowed Boots",
+	"item.donutmod.hallowed_leggings": "\u00A7dHallowed Leggings",
+	"item.donutmod.hallowed_chestplate": "\u00A7dHallowed Plate Mail",
+	
+	"item.donutmod.hallowed_melee_helmet": "\u00A7dHallowed Mask",
+	"item.donutmod.hallowed_ranged_helmet": "\u00A7dHallowed Headgear",
+	"item.donutmod.hallowed_magic_helmet": "\u00A7dHallowed Helmet",
+	
+	"item.donutmod.possessed_boots": "Possessed Boots",
+	"item.donutmod.possessed_leggings": "Possessed Leggings",
+	"item.donutmod.possessed_chestplate": "Possessed Chestplate",
+	"item.donutmod.possessed_helmet": "Possessed Helmet",
+	
+	"item.donutmod.wyvern_spawn_egg": "Wyvern Spawn Egg",
+	
+	"entity.donutmod.wyvern": "Wyvern",
+	"entity.donutmod.redstone_cube": "Redstone Cube",
+	"entity.donutmod.light_disc": "Light Disc",
+	
+	"effect.donutmod.fly": "Avian Grace",
+	"effect.donutmod.shine": "Shining",
+	
+	"container.donutmod.nether_furnace": "Nether Furnace",
+	"container.donutmod.adamantite_furnace": "Adamantite Forge",
+	"container.donutmod.soul_bench": "Soul Bench",
+	
+	"text.donutmod.isHardmode": "The world is in hardmode",
+	"text.donutmod.isNotHardmode": "The world is not in hardmode",
+	"text.donutmod.ore_blessing": "The world has been blessed with",
+	
+	"text.autoconfig.donutmod.option.underground_cabin": "Underground Cabin Settings",
+	"text.autoconfig.donutmod.option.underground_cabin.enabled": "Enable Underground Cabins",
+	"text.autoconfig.donutmod.option.underground_cabin.chance": "Underground Cabin Spawn Chance",
+	
+	"text.autoconfig.donutmod.option.mythril_ore": "Mythril Ore Settings",
+	
+	"text.autoconfig.donutmod.option.mythril_ore.veinSize": "Vein Size",
+	"text.autoconfig.donutmod.option.mythril_ore.veinsPerChunk": "Veins Per Chunk",
+	"text.autoconfig.donutmod.option.mythril_ore.bottomOffset": "Bottom Offset",
+	"text.autoconfig.donutmod.option.mythril_ore.minHeight": "Minimum Spawning Height",
+	"text.autoconfig.donutmod.option.mythril_ore.maxHeight": "Maximum Spawning Height"
+	
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.rhysholloway.donutmod.util.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  	"FeatureMixin",
+  	"SaplingMixin",
+	"EnderDragonEntityMixin",
+	"EnderDragonFightMixin",
+	"DefaultBiomeFeaturesMixin"
+  ],
+  "client": [
+  	"ItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

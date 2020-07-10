@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"III",
+		"ISI",
+		"   "
+	],
+	
+	"key":
+	{
+		"I": { "item": "donutmod:hallowed_ingot" },
+		"S": { "item": "minecraft:obsidian" }
+	},
+	
+	"result": { "item": "donutmod:hallowed_melee_helmet" }
+}

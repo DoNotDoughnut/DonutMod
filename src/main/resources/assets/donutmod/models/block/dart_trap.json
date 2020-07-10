@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+  	"top": "donutmod:block/dart_trap_side",
+    "front": "donutmod:block/dart_trap_front",
+    "side": "donutmod:block/dart_trap_side"
+  }
+}

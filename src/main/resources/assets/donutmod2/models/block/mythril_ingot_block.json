@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "donutmod2:block/mythril_ingot_block"
-  }
-}

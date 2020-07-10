@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "donutmod:block/adamantite_ingot_block"
+  }
+}

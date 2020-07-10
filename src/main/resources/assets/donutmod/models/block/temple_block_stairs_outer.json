@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "donutmod:block/temple_block",
+    "top": "donutmod:block/temple_block",
+    "side": "donutmod:block/temple_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "donutmod:nether_smelting",
+  "ingredient": {
+    "item": "donutmod:cobalt_ore"
+  },
+  "result": "donutmod:cobalt_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

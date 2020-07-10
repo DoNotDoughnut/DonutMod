@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "donutmod:item/accessory_angel_ring"
+  }
+}

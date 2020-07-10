@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "donutmod:block/nether_furnace_top",
+    "front": "donutmod:block/nether_furnace_front_on",
+    "side": "donutmod:block/nether_furnace_side"
+  }
+}

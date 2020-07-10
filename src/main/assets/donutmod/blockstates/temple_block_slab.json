@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "donutmod:block/temple_block_slab"
+    },
+    "type=double": {
+      "model": "donutmod:block/temple_block"
+    },
+    "type=top": {
+      "model": "donutmod:block/temple_block_slab_top"
+    }
+  }
+}

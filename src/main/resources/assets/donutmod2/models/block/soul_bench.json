@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "donutmod2:block/soul_bench_top",
-    "front": "donutmod2:block/soul_bench_front",
-    "side": "donutmod2:block/soul_bench_side"
-  }
-}
